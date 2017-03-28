@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>Layout Engine Testing</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+<body>
+    <script type="text/javascript">
+        var __styla__ =
+            {
+                magazine       : 'demo',
+                settingsApi    : 'http://localhost:3003/demo',
+                feedApi        : 'http://redpanda.prod.us.magalog.net/v1/feed/desktop/outofcouture',
+                storiesPerPage : 4,
+                feedEndMessage : 'zuende!'
+            };
+    </script>
+    <div id="app"></div>
+    <script src="http://localhost:8080/webpack-dev-server.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

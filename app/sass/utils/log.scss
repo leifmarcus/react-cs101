@@ -1,0 +1,14 @@
+.Log
+{
+    margin: 2vh 0;
+}
+.Log--output
+{
+    font-family:    "Roboto Mono", monospace;
+    font-size:      2vh;
+    line-height:    2.5vh;
+    padding:        2vh;
+    background:     #f8f8f8;
+    border:         1px dashed #ccc;
+    overflow:       scroll;
+}
